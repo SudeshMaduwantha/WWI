@@ -1,0 +1,17 @@
+/* Fullscreen Overlay */
+.loadingContainer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Responsive GIF */
+.loadingGif {
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+}
